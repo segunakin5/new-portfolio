@@ -20,7 +20,7 @@ export default function About() {
           <div className="about-visual">
             <div className="profile-card">
               <div className="profile-avatar">
-                <img src="/AYO.jpeg" alt="Profile"/>
+            {<img src={`${import.meta.env.BASE_URL}/AYO.jpeg`} />}
               </div>
               <div className="floating-elements">
                 <div className="floating-circle circle-1"></div>
