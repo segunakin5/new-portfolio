@@ -43,7 +43,7 @@ export default function Projects() {
 
         <div className="projects-grid">
           <ProjectCard 
-             img={<img src={`${import.meta.env.BASE_URL}/sapag.png`} />}
+            img={`${import.meta.env.BASE_URL}/sapag.png`}
             alt="Sapa Guard App"
             category="Mobile App"
             title="Sapa Guard"
@@ -54,7 +54,7 @@ export default function Projects() {
           />
 
           <ProjectCard 
-            img={<img src={`${import.meta.env.BASE_URL}/hero.png`} />}
+            img={`${import.meta.env.BASE_URL}/hero.png`}
             alt="Green Harvest Website"
             category="Website"
             title="Green Harvest"
@@ -65,7 +65,7 @@ export default function Projects() {
           />
 
           <ProjectCard 
-            img={<img src={`${import.meta.env.BASE_URL}/HEROg.png`} />}
+            img={`${import.meta.env.BASE_URL}/HEROg.png`}
             alt="GadgetsManShubb E-commerce"
             category="E-commerce"
             title="GadgetsManShubb"
@@ -76,7 +76,7 @@ export default function Projects() {
           />
 
           <ProjectCard 
-            img={<img src={`${import.meta.env.BASE_URL}/NELSON.png`} />}
+            img={`${import.meta.env.BASE_URL}/NELSON.png`}
             alt="Handmade Shoe Vendor"
             category="Web App"
             title="Handmade Shoe Vendor"
@@ -87,7 +87,7 @@ export default function Projects() {
           />
 
           <ProjectCard 
-            img={<img src={`${import.meta.env.BASE_URL}/KRYPTO.png`} />}
+            img={`${import.meta.env.BASE_URL}/KRYPTO.png`}
             alt="Kryptoo Crypto App"
             category="Mobile App"
             title="Kryptoo"
@@ -98,7 +98,7 @@ export default function Projects() {
           />
 
           <ProjectCard 
-            img={<img src={`${import.meta.env.BASE_URL}/todo.png`} />}
+            img={`${import.meta.env.BASE_URL}/todo.png`}
             alt="Todo List WebApp"
             category="Web App"
             title="Todo List WebApp"
@@ -109,7 +109,7 @@ export default function Projects() {
           />
 
           <ProjectCard 
-            img={<img src={`${import.meta.env.BASE_URL}/rps.png`} />}
+            img={`${import.meta.env.BASE_URL}/rps.png`}
             alt="Rock Paper Scissors Game"
             category="Game"
             title="Rock Paper Scissors"
@@ -120,7 +120,7 @@ export default function Projects() {
           />
 
           <ProjectCard 
-            img={<img src={`${import.meta.env.BASE_URL}/vanguard.png`} />}
+            img={`${import.meta.env.BASE_URL}/vanguard.png`}
             alt="vanguardpartners"
             category="website"
             title="Vanguard Partners salesforce consulting firm"
@@ -131,7 +131,7 @@ export default function Projects() {
           />
 
           <ProjectCard 
-            img={<img src={`${import.meta.env.BASE_URL}/johntosin.png`} />}
+            img={`${import.meta.env.BASE_URL}/johntosin.png`}
             alt="johntosin"
             category="website"
             title="Johntosin"
@@ -142,7 +142,7 @@ export default function Projects() {
           />
 
           <ProjectCard 
-            img={<img src={`${import.meta.env.BASE_URL}/peter.png`} />}
+            img={`${import.meta.env.BASE_URL}/peter.png`}
             alt="peter"
             category="website"
             title="Peterson okopi"
@@ -153,7 +153,7 @@ export default function Projects() {
           />
 
           <ProjectCard 
-            img={<img src={`${import.meta.env.BASE_URL}/JUIC.png`} />}
+            img={`${import.meta.env.BASE_URL}/JUIC.png`}
             alt="JUICE"
             category="Game"
             title="JUIC.EZ"
@@ -164,7 +164,7 @@ export default function Projects() {
           />
 
           <ProjectCard 
-            img={<img src={`${import.meta.env.BASE_URL}/lavender.png`} />}
+            img={`${import.meta.env.BASE_URL}/lavender.png`}
             alt="lavender"
             category="website"
             title="Resort welcome page"
