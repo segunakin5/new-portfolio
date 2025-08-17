@@ -41,7 +41,7 @@ export default function Projects() {
 
         <div className="projects-grid">
           <ProjectCard 
-            img="/sapag.png"
+            img={`${import.meta.env.BASE_URL}sapag.png`}
             alt="Sapa Guard App"
             category="Mobile App"
             title="Sapa Guard"
@@ -52,7 +52,7 @@ export default function Projects() {
           />
 
           <ProjectCard 
-            img="/hero.png"
+            img={`${import.meta.env.BASE_URL}hero.png`}
             alt="Green Harvest Website"
             category="Website"
             title="Green Harvest"
@@ -63,7 +63,7 @@ export default function Projects() {
           />
 
           <ProjectCard 
-            img="/HEROg.png"
+            img={`${import.meta.env.BASE_URL}HEROg.png`}
             alt="GadgetsManShubb E-commerce"
             category="E-commerce"
             title="GadgetsManShubb"
@@ -74,7 +74,7 @@ export default function Projects() {
           />
 
           <ProjectCard 
-            img="/NELSON.png"
+            img={`${import.meta.env.BASE_URL}NELSON.png`}
             alt="Handmade Shoe Vendor"
             category="Web App"
             title="Handmade Shoe Vendor"
@@ -85,7 +85,7 @@ export default function Projects() {
           />
 
           <ProjectCard 
-            img="/KRYPTO.png"
+            img={`${import.meta.env.BASE_URL}KRYPTO.png`}
             alt="Kryptoo Crypto App"
             category="Mobile App"
             title="Kryptoo"
@@ -96,7 +96,7 @@ export default function Projects() {
           />
 
           <ProjectCard 
-            img="/todo.png"
+            img={`${import.meta.env.BASE_URL}todo.png`}
             alt="Todo List WebApp"
             category="Web App"
             title="Todo List WebApp"
@@ -107,7 +107,7 @@ export default function Projects() {
           />
 
           <ProjectCard 
-            img="/rps.png"
+            img={`${import.meta.env.BASE_URL}rps.png`}
             alt="Rock Paper Scissors Game"
             category="Game"
             title="Rock Paper Scissors"
@@ -118,7 +118,7 @@ export default function Projects() {
           />
 
           <ProjectCard 
-            img="/vanguard.png"
+            img={`${import.meta.env.BASE_URL}vanguard.png`}
             alt="vanguardpartners"
             category="website"
             title="Vanguard Partners salesforce consulting firm"
@@ -129,7 +129,7 @@ export default function Projects() {
           />
 
           <ProjectCard 
-            img="/johntosin.png"
+            img={`${import.meta.env.BASE_URL}johntosin.png`}
             alt="johntosin"
             category="website"
             title="Johntosin"
@@ -140,7 +140,7 @@ export default function Projects() {
           />
 
           <ProjectCard 
-            img="/peter.png"
+            img={`${import.meta.env.BASE_URL}peter.png`}
             alt="peter"
             category="website"
             title="Peterson okopi"
@@ -151,7 +151,7 @@ export default function Projects() {
           />
 
           <ProjectCard 
-            img="/JUIC.png"
+            img={`${import.meta.env.BASE_URL}JUIC.png`}
             alt="JUICE"
             category="Game"
             title="JUIC.EZ"
@@ -162,7 +162,7 @@ export default function Projects() {
           />
 
           <ProjectCard 
-            img="/lavender.png"
+            img={`${import.meta.env.BASE_URL}lavender.png`}
             alt="lavender"
             category="website"
             title="Resort welcome page"
@@ -171,6 +171,17 @@ export default function Projects() {
             figmaLink="https://www.figma.com/proto/ncU1LUyBwuPITKZqaxjyjD/single-page-resort?node-id=24-101&p=f&t=HNHFwrNamdU7u00e-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=24%3A101"
             githubLink="https://github.com/yourusername/lavender"
           />
+
+          <ProjectCard 
+          img={`${import.meta.env.BASE_URL}closeup.png`}
+          alt="closeup"
+          category="website"
+          title="Close-up Photography"
+          desc="I designed this toothpaste concept using Closeup’s theme colors of red, black, and white to reflect freshness, boldness, and confidence. The layout combines strong contrast with clean typography, giving it a modern and energetic feel while staying true to the brand’s identity. My focus was to create a design that is clear, eye-catching, and memorable."
+          tags={['Figma','branding','Animation']}
+          figmaLink="https://www.figma.com/proto/b6B3alDGMnt40geoCfq8mm/Untitled?node-id=1-68&t=AxyAjaI7RkHUWhZK-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1"
+          githubLink="https://github.com/yourusername/lavender"
+        />
         </div>
       </div>
     </section>
