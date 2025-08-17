@@ -176,7 +176,7 @@ export default function Projects() {
           img={`${import.meta.env.BASE_URL}closeup.png`}
           alt="closeup"
           category="website"
-          title="Close-up Photography"
+          title="Close-up toothpaste"
           desc="I designed this toothpaste concept using Closeup’s theme colors of red, black, and white to reflect freshness, boldness, and confidence. The layout combines strong contrast with clean typography, giving it a modern and energetic feel while staying true to the brand’s identity. My focus was to create a design that is clear, eye-catching, and memorable."
           tags={['Figma','branding','Animation']}
           figmaLink="https://www.figma.com/proto/b6B3alDGMnt40geoCfq8mm/Untitled?node-id=1-68&t=AxyAjaI7RkHUWhZK-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1"
