@@ -12,10 +12,7 @@ export default function About() {
              <p>My approach blends creative design thinking with technical skills to deliver interfaces that not only look great but also feel intuitive, seamless, and engaging for users.</p>
 
             </div>
-            <a href="/AYOMIDEAKINTOYE(product-designer).docx" download className="download-btn">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/></svg>
-              Download Resume
-            </a>
+            
           </div>
 
           <div className="about-visual">

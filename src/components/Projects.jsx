@@ -40,7 +40,18 @@ export default function Projects() {
         </div>
 
         <div className="projects-grid">
-          <ProjectCard 
+           <ProjectCard 
+          img={`${import.meta.env.BASE_URL}nairaex.png`}
+          alt="nairaex"
+          category="website"
+          title="NairaEx Exchange"
+          desc="NairaEx is a crypto exchange concept where users can easily buy and sell digital currencies in a secure and transparent way. I designed the interface with a focus on clarity, trust, and efficiency. The clean layout, bold typography, and structured dashboard flow make the platform user-friendly while still looking professional and reliable."
+          tags={['figma','UI/UX','Crypto']}
+          figmaLink="https://www.figma.com/proto/69DOueMvmJIVbKMx9gSEQW/Nairaex?t=KBiLR4JTZx58nnxi-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&node-id=1-658&starting-point-node-id=1%3A658"
+          githubLink="https://github.com/yourusername/nairaex"
+         />
+
+           <ProjectCard 
             img={`${import.meta.env.BASE_URL}sapag.png`}
             alt="Sapa Guard App"
             category="Mobile App"
@@ -50,6 +61,18 @@ export default function Projects() {
             figmaLink="https://www.figma.com/proto/Jqsif0hK4bpePOH5u6WHdN/SAPA-GUARD?node-id=58-417&p=f&t=OCYoD5DwnU3y9oPu-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=58%3A553&show-proto-sidebar=1"
             githubLink="https://github.com/yourusername/sapag"
           />
+          
+           <ProjectCard 
+          img={`${import.meta.env.BASE_URL}tripply.png`}
+          alt="tripply"
+          category="mobile app"
+          title="Tripply Travel Planner"
+          desc="Tripply is a modern travel planning concept that helps users explore destinations, organize trips, and book with ease. I focused on a clean and engaging design that combines vibrant visuals with simple navigation, making trip planning both fun and seamless. The goal was to create an experience that feels intuitive, inspiring, and trustworthy."
+          tags={['figma','UI/UX','Branding']}
+          figmaLink="https://www.figma.com/proto/elxApxq3IlJSXSvHC8DcMu/TRIPPLY?node-id=2036-2158&p=f&t=Qyw77Lqg2saXMwNU-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=2029%3A1542&show-proto-sidebar=1"
+          githubLink="https://github.com/yourusername/tripply"
+         />
+
 
           <ProjectCard 
             img={`${import.meta.env.BASE_URL}hero.png`}
@@ -183,27 +206,8 @@ export default function Projects() {
           githubLink="https://github.com/yourusername/closeup"
         />
 
-           <ProjectCard 
-          img={`${import.meta.env.BASE_URL}tripply.png`}
-          alt="tripply"
-          category="mobile app"
-          title="Tripply Travel Planner"
-          desc="Tripply is a modern travel planning concept that helps users explore destinations, organize trips, and book with ease. I focused on a clean and engaging design that combines vibrant visuals with simple navigation, making trip planning both fun and seamless. The goal was to create an experience that feels intuitive, inspiring, and trustworthy."
-          tags={['figma','UI/UX','Branding']}
-          figmaLink="https://www.figma.com/proto/elxApxq3IlJSXSvHC8DcMu/TRIPPLY?node-id=2036-2158&p=f&t=Qyw77Lqg2saXMwNU-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=2029%3A1542&show-proto-sidebar=1"
-          githubLink="https://github.com/yourusername/tripply"
-        />
-
-        <ProjectCard 
-          img={`${import.meta.env.BASE_URL}nairaex.png`}
-          alt="nairaex"
-          category="website"
-          title="NairaEx Exchange"
-          desc="NairaEx is a crypto exchange concept where users can easily buy and sell digital currencies in a secure and transparent way. I designed the interface with a focus on clarity, trust, and efficiency. The clean layout, bold typography, and structured dashboard flow make the platform user-friendly while still looking professional and reliable."
-          tags={['figma','UI/UX','Crypto']}
-          figmaLink="https://www.figma.com/proto/69DOueMvmJIVbKMx9gSEQW/Nairaex?t=KBiLR4JTZx58nnxi-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&node-id=1-658&starting-point-node-id=1%3A658"
-          githubLink="https://github.com/yourusername/nairaex"
-        />
+          
+     
 
 
 
