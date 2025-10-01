@@ -153,7 +153,7 @@ export default function Projects() {
           <ProjectCard 
             img={`${import.meta.env.BASE_URL}JUIC.png`}
             alt="JUICE"
-            category="Game"
+            category="website"
             title="JUIC.EZ"
             desc="A website design for a music producer with a vibrant and dynamic aesthetic, showcasing their portfolio and latest tracks."
             tags={['figma','music','Animation']}
@@ -180,8 +180,34 @@ export default function Projects() {
           desc="I designed this toothpaste concept using Closeup’s theme colors of red, black, and white to reflect freshness, boldness, and confidence. The layout combines strong contrast with clean typography, giving it a modern and energetic feel while staying true to the brand’s identity. My focus was to create a design that is clear, eye-catching, and memorable."
           tags={['Figma','branding','Animation']}
           figmaLink="https://www.figma.com/proto/b6B3alDGMnt40geoCfq8mm/Untitled?node-id=1-68&t=AxyAjaI7RkHUWhZK-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1"
-          githubLink="https://github.com/yourusername/lavender"
+          githubLink="https://github.com/yourusername/closeup"
         />
+
+           <ProjectCard 
+          img={`${import.meta.env.BASE_URL}tripply.png`}
+          alt="tripply"
+          category="mobile app"
+          title="Tripply Travel Planner"
+          desc="Tripply is a modern travel planning concept that helps users explore destinations, organize trips, and book with ease. I focused on a clean and engaging design that combines vibrant visuals with simple navigation, making trip planning both fun and seamless. The goal was to create an experience that feels intuitive, inspiring, and trustworthy."
+          tags={['figma','UI/UX','Branding']}
+          figmaLink="https://www.figma.com/proto/elxApxq3IlJSXSvHC8DcMu/TRIPPLY?node-id=2036-2158&p=f&t=Qyw77Lqg2saXMwNU-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=2029%3A1542&show-proto-sidebar=1"
+          githubLink="https://github.com/yourusername/tripply"
+        />
+
+        <ProjectCard 
+          img={`${import.meta.env.BASE_URL}nairaex.png`}
+          alt="nairaex"
+          category="website"
+          title="NairaEx Exchange"
+          desc="NairaEx is a crypto exchange concept where users can easily buy and sell digital currencies in a secure and transparent way. I designed the interface with a focus on clarity, trust, and efficiency. The clean layout, bold typography, and structured dashboard flow make the platform user-friendly while still looking professional and reliable."
+          tags={['figma','UI/UX','Crypto']}
+          figmaLink="https://www.figma.com/proto/69DOueMvmJIVbKMx9gSEQW/Nairaex?t=KBiLR4JTZx58nnxi-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&node-id=1-658&starting-point-node-id=1%3A658"
+          githubLink="https://github.com/yourusername/nairaex"
+        />
+
+
+
+        
         </div>
       </div>
     </section>

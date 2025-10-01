@@ -8,8 +8,9 @@ export default function About() {
           <div className="about-text">
             <h2 className="section-title">About <span className="gradient-text">Me</span></h2>
             <div className="about-description">
-              <p>I'm a passionate <span className="accent-text">Frontend Developer</span> and <span className="accent-text">UI/UX Designer</span> with a keen eye for creating exceptional digital experiences that blend functionality with stunning visual design.</p>
-              <p>My approach combines technical expertise with creative design thinking to deliver solutions that not only look amazing but also provide seamless user experiences that convert and engage.</p>
+             <p>I'm a passionate <span className="accent-text">UI/UX Designer</span> with a strong <span className="accent-text">Frontend Development</span> background, focused on creating exceptional digital experiences that balance usability with beautiful design.</p>
+             <p>My approach blends creative design thinking with technical skills to deliver interfaces that not only look great but also feel intuitive, seamless, and engaging for users.</p>
+
             </div>
             <a href="/Ayomide_Akintoye_CV.pdf" download className="download-btn">
               <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/></svg>
@@ -34,18 +35,7 @@ export default function About() {
         </div>
 
         <div className="skills-grid">
-          <div className="skill-card">
-            <div className="skill-icon">
-              <svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor"><path d="M9.4 16.6L4.8 12l4.6-4.6L8 6l-6 6 6 6 1.4-1.4zm5.2 0L19.2 12l-4.6-4.6L16 6l6 6-6 6-1.4-1.4z"/></svg>
-            </div>
-            <h3>Frontend Development</h3>
-            <p>Building responsive, performant web applications using modern frameworks like React, Vue, and Next.js with clean, maintainable code.</p>
-            <ul className="skill-list">
-              <li>React</li>
-              <li>JavaScript</li>
-              <li>Performance Optimization</li>
-            </ul>
-          </div>
+          
 
           <div className="skill-card">
             <div className="skill-icon">
@@ -58,6 +48,19 @@ export default function About() {
               <li>Wireframing</li>
               <li>Prototyping</li>
               <li>Design Systems</li>
+            </ul>
+          </div>
+
+          <div className="skill-card">
+            <div className="skill-icon">
+              <svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor"><path d="M9.4 16.6L4.8 12l4.6-4.6L8 6l-6 6 6 6 1.4-1.4zm5.2 0L19.2 12l-4.6-4.6L16 6l6 6-6 6-1.4-1.4z"/></svg>
+            </div>
+            <h3>Frontend Development</h3>
+            <p>Building responsive, performant web applications using modern frameworks like React, Vue, and Next.js with clean, maintainable code.</p>
+            <ul className="skill-list">
+              <li>React</li>
+              <li>JavaScript</li>
+              <li>Performance Optimization</li>
             </ul>
           </div>
 

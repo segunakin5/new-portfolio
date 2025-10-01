@@ -12,7 +12,7 @@ export default function Hero() {
           </h1>
 
           <p className="hero-subtitle">
-            A Frontend Developer Crafting Modern Interfaces With <span className="accent-text">UI/UX Precision</span>
+            UI/UX Designer Creating Modern Interfaces with <span className="accent-text">Frontend Expertise</span>
           </p>
 
           <div className="hero-social">
