@@ -40,6 +40,18 @@ export default function Projects() {
         </div>
 
         <div className="projects-grid">
+
+         <ProjectCard 
+          img={`${import.meta.env.BASE_URL}nairaex.png`}
+          alt="Learn Connect"
+          category="webApp"
+          title="Learn Connect"
+          desc="LearnConnect is a school internship management platform that helps schools manage and monitor student internship activities in one place. The dashboard allows school admins to upload students, track placements, review logbook updates, and see overall progress at a glance. The focus of the design was clarity, ease of use, and helping schools stay organized while supporting students through real workplace experience."
+          tags={['figma','UI/UX','Education']}
+          figmaLink="https://www.figma.com/proto/sDoEnwiCSux3lCHDgBNJLL/dash?node-id=1-1677&p=f&t=AF87f1B6CtUARbL4-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1"
+          githubLink="https://github.com/segunakin5/nairaex"
+         />
+
            <ProjectCard 
           img={`${import.meta.env.BASE_URL}nairaex.png`}
           alt="nairaex"
@@ -48,7 +60,7 @@ export default function Projects() {
           desc="NairaEx is a crypto exchange concept where users can easily buy and sell digital currencies in a secure and transparent way. I designed the interface with a focus on clarity, trust, and efficiency. The clean layout, bold typography, and structured dashboard flow make the platform user-friendly while still looking professional and reliable."
           tags={['figma','UI/UX','Crypto']}
           figmaLink="https://www.figma.com/proto/69DOueMvmJIVbKMx9gSEQW/Nairaex?t=KBiLR4JTZx58nnxi-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&node-id=1-658&starting-point-node-id=1%3A658"
-          githubLink="https://github.com/yourusername/nairaex"
+          githubLink="https://github.com/segunakin5/nairaex"
          />
 
            <ProjectCard 
@@ -59,7 +71,7 @@ export default function Projects() {
             desc="Finance calculator app infused with Nigerian slang for fun money tracking. Created an engaging interface that makes budgeting enjoyable with local cultural references."
             tags={['React Native','UI Design','Finance']}
             figmaLink="https://www.figma.com/proto/Jqsif0hK4bpePOH5u6WHdN/SAPA-GUARD?node-id=58-417&p=f&t=OCYoD5DwnU3y9oPu-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=58%3A553&show-proto-sidebar=1"
-            githubLink="https://github.com/yourusername/sapag"
+            githubLink="https://github.com/segunakin5/sapag"
           />
           
            <ProjectCard 
@@ -70,7 +82,7 @@ export default function Projects() {
           desc="Tripply is a modern travel planning concept that helps users explore destinations, organize trips, and book with ease. I focused on a clean and engaging design that combines vibrant visuals with simple navigation, making trip planning both fun and seamless. The goal was to create an experience that feels intuitive, inspiring, and trustworthy."
           tags={['figma','UI/UX','Branding']}
           figmaLink="https://www.figma.com/proto/elxApxq3IlJSXSvHC8DcMu/TRIPPLY?node-id=2036-2158&p=f&t=Qyw77Lqg2saXMwNU-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=2029%3A1542&show-proto-sidebar=1"
-          githubLink="https://github.com/yourusername/tripply"
+          githubLink="https://github.com/segunakin5/tripply"
          />
 
 
@@ -82,7 +94,7 @@ export default function Projects() {
             desc="Fresh farm produce website with a welcoming, clean layout. Designed to connect consumers with local farmers through an intuitive and trustworthy interface."
             tags={['React','E-commerce','Agriculture']}
             figmaLink="https://www.figma.com/proto/LXOzfHO0d2ZBbwvDr6Df8f/Untitled?node-id=1-148&t=IUB5nrrCiu0tjXdb-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1"
-            githubLink="https://github.com/yourusername/greenharvest"
+            githubLink="https://github.com/segunakin5/greenharvest"
           />
 
           <ProjectCard 
@@ -93,7 +105,7 @@ export default function Projects() {
             desc="E-commerce store for gadgets with smooth navigation and modern design. Designed and developed a complete shopping experience with intuitive product discovery."
             tags={['REACT.js','E-commerce','Full-Stack']}
             figmaLink="https://www.figma.com/proto/BDCangdBvUwNewor9yWGVD/gadgetsmann-hubb?t=cxaYKziUXA6QjF3e-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&node-id=2005-301"
-            githubLink="https://github.com/yourusername/gadgetsmanshubb"
+            githubLink="https://github.com/segunakin5/gadgetsmanshubb"
           />
 
           <ProjectCard 
@@ -104,7 +116,7 @@ export default function Projects() {
             desc="Custom ordering platform for shoe artisans. Designed a comprehensive system for custom measurements, material selection, and order tracking."
             tags={['figma','Custom Orders','Artisan']}
             figmaLink="https://www.figma.com/proto/EBUl4Sftr1dE1G5YSb6Jcr/Handmade-BY-Nelson?node-id=1016-8894&t=2dBosCwp4FasjCqW-1&scaling=min-zoom&content-scaling=fixed&page-id=256%3A412&starting-point-node-id=1016%3A8894"
-            githubLink="https://github.com/yourusername/handmadeshoe"
+            githubLink="https://github.com/segunakin5/handmadeshoe"
           />
 
           <ProjectCard 
@@ -115,7 +127,7 @@ export default function Projects() {
             desc="Crypto investment and tracking app with a minimal, sleek user interface. Designed complex financial data visualization in an accessible format."
             tags={['figma','Crypto','Finance']}
             figmaLink="https://www.figma.com/proto/ZneqU3iBEGTLEB8lO7snWq/AYO-KRYPTO?t=5YK4GUD3zZDQRBSu-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&node-id=1-52&starting-point-node-id=1%3A43"
-            githubLink="https://github.com/yourusername/kryptoo"
+            githubLink="https://github.com/segunakin5/kryptoo"
           />
 
           <ProjectCard 
@@ -126,7 +138,7 @@ export default function Projects() {
             desc="A modern, intuitive todo list application with drag-and-drop functionality, categories, and progress tracking for enhanced productivity."
             tags={['React','Productivity','PWA']}
             figmaLink="https://figma.com/proto/todolist"
-            githubLink="https://github.com/yourusername/todolist"
+            githubLink="https://github.com/segunakin5/todolist"
           />
 
           <ProjectCard 
@@ -137,7 +149,7 @@ export default function Projects() {
             desc="Interactive rock paper scissors game with smooth animations, score tracking, and engaging visual feedback for an entertaining user experience."
             tags={['JavaScript','Game','Animation']}
             figmaLink="https://figma.com/proto/rps"
-            githubLink="https://github.com/yourusername/rps"
+            githubLink="https://github.com/segunakin5/rps"
           />
 
           <ProjectCard 
@@ -148,7 +160,7 @@ export default function Projects() {
             desc="Clean and professional website design for Vanguard Partners, a Salesforce consulting firm, built to highlight their services, expertise, and client-focused approach"
             tags={['Figma','Web Design','Salesforce']}
             figmaLink="https://www.figma.com/proto/zPEo1nKPDyEH8si8n5AQcQ/BACKGROUND-TEST?node-id=119-5&p=f&t=btEq2XRu9ONuvAIe-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=119%3A5"
-            githubLink="https://github.com/yourusername/vanguard"
+            githubLink="https://github.com/segunakin5/vanguard"
           />
 
           <ProjectCard 
@@ -159,7 +171,7 @@ export default function Projects() {
             desc="A custom homepage design for a professional photographer with a retro-inspired aesthetic. The concept combines vintage elements like a classic film camera and bold serif typography with a clean, modern layout."
             tags={['figma','photography','Animation']}
             figmaLink="https://www.figma.com/proto/duQhrG1KNvETT18XQC2WE5/johntosin?node-id=1-2&p=f&t=abWO52Bc7FowfBq0-1&scaling=scale-down-width&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A2&show-proto-sidebar=1"
-            githubLink="https://github.com/yourusername/johntosin"
+            githubLink="https://github.com/segunakin5/johntosin"
           />
 
           <ProjectCard 
@@ -170,7 +182,7 @@ export default function Projects() {
             desc="A minimal website design for Peterson Okopi, showcasing his portfolio and services with a clean, modern aesthetic."
             tags={['Figma','Web Design','Animation']}
             figmaLink="https://www.figma.com/proto/IrdZtQLAjY9rfp2l8kHBl2/Peterson-okopi?node-id=37-1968&t=cTwqBWedKGgbvI6D-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=37%3A1968"
-            githubLink="https://github.com/yourusername/petersonokopi"
+            githubLink="https://github.com/segunakin5/petersonokopi"
           />
 
           <ProjectCard 
@@ -181,7 +193,7 @@ export default function Projects() {
             desc="A website design for a music producer with a vibrant and dynamic aesthetic, showcasing their portfolio and latest tracks."
             tags={['figma','music','Animation']}
             figmaLink="https://www.figma.com/proto/1JX4jj0inDkBuor2f7mjaY/JUIC.EZ?t=LkL3YZv6QTOOXohl-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&node-id=18-418"
-            githubLink="https://github.com/yourusername/juicez"
+            githubLink="https://github.com/segunakin5/juicez"
           />
 
           <ProjectCard 
@@ -192,7 +204,7 @@ export default function Projects() {
             desc="A serene and inviting resort welcome page design, featuring lush lavender fields and a calming color palette for a resort website."
             tags={['Figma','Web Design','Animation']}
             figmaLink="https://www.figma.com/proto/ncU1LUyBwuPITKZqaxjyjD/single-page-resort?node-id=24-101&p=f&t=HNHFwrNamdU7u00e-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=24%3A101"
-            githubLink="https://github.com/yourusername/lavender"
+            githubLink="https://github.com/segunakin5/lavender"
           />
 
           <ProjectCard 
@@ -203,7 +215,7 @@ export default function Projects() {
           desc="I designed this toothpaste concept using Closeup’s theme colors of red, black, and white to reflect freshness, boldness, and confidence. The layout combines strong contrast with clean typography, giving it a modern and energetic feel while staying true to the brand’s identity. My focus was to create a design that is clear, eye-catching, and memorable."
           tags={['Figma','branding','Animation']}
           figmaLink="https://www.figma.com/proto/b6B3alDGMnt40geoCfq8mm/Untitled?node-id=1-68&t=AxyAjaI7RkHUWhZK-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1"
-          githubLink="https://github.com/yourusername/closeup"
+          githubLink="https://github.com/segunakin5/closeup"
         />
 
           

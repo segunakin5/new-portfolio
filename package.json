@@ -1,16 +1,16 @@
-{
+{ "$schema": "",
   "homepage": "https://segunakin5.github.io/new-portfolio",
   "name": "portfolio-react",
   "private": false,
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d docs"
-  },
+     "dev": "vite",
+     "build": "vite build",
+     "preview": "vite preview",
+     "predeploy": "npm run build",
+     "deploy": "gh-pages -d docs"
+   },
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
