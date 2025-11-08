@@ -40,9 +40,9 @@ export default function Projects() {
         </div>
 
         <div className="projects-grid">
-
-         <ProjectCard 
-          img={`${import.meta.env.BASE_URL}nairaex.png`}
+          
+          <ProjectCard 
+          img={`${import.meta.env.BASE_URL}le.png`}
           alt="Learn Connect"
           category="webApp"
           title="Learn Connect"
@@ -51,7 +51,7 @@ export default function Projects() {
           figmaLink="https://www.figma.com/proto/sDoEnwiCSux3lCHDgBNJLL/dash?node-id=1-1677&p=f&t=AF87f1B6CtUARbL4-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1"
           githubLink="https://github.com/segunakin5/nairaex"
          />
-
+         
            <ProjectCard 
           img={`${import.meta.env.BASE_URL}nairaex.png`}
           alt="nairaex"
@@ -73,6 +73,9 @@ export default function Projects() {
             figmaLink="https://www.figma.com/proto/Jqsif0hK4bpePOH5u6WHdN/SAPA-GUARD?node-id=58-417&p=f&t=OCYoD5DwnU3y9oPu-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=58%3A553&show-proto-sidebar=1"
             githubLink="https://github.com/segunakin5/sapag"
           />
+
+
+
           
            <ProjectCard 
           img={`${import.meta.env.BASE_URL}tripply.png`}
